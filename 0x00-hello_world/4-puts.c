@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-/*main - prints text using puts() function and retuns 0 for successful run */
+/*main - prints Programming is like building a multilingual puzzle
+ *retuns - 0 upon successful run. Non 0 value if failed */
 
 int main(void)
 {
