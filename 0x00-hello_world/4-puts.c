@@ -1,7 +1,9 @@
 #include <stdio.h>
 
-/*main - prints Programming is like building a multilingual puzzle
- *retuns - 0 upon successful run. Non 0 value if failed */
+/*
+ * main - prints Programming is like building a multilingual puzzle
+ * returns - 0 upon successful run. Non 0 value if failed
+ */
 
 int main(void)
 {
