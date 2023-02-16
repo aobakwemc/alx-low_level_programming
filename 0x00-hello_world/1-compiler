@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -c $CFILE -o $CFILE #cannot give a variable an extension like the task requires
+gcc -c $CFILE $CFILE #cannot give a variable an extension like the task requires
