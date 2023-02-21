@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - entry point for program
+ * main - print string followed by new line
  * Return: 0 (success)
  */
 int main(void)
