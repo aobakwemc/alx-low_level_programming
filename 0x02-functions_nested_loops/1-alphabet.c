@@ -8,7 +8,6 @@
 int main(void)
 {
 	print_alphabet();
-	_putchar('\n');
 	return (0);
 }
 void print_alphabet(void)
@@ -19,5 +18,6 @@ void print_alphabet(void)
 	{
 		_putchar(lowerCase);
 	}
+	_putchar('\n');
 }
 
