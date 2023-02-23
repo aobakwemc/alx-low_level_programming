@@ -9,9 +9,9 @@
 
 int main(void)
 {
-	int i, num = 100;
+	int i;
 
-	for (i = 1; i <= num; i++)
+	for (i = 1; i <= 100; i++)
 	{
 		if (i % 3 == 0)
 			printf("Fizz");
