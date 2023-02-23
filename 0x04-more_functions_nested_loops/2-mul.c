@@ -6,12 +6,5 @@
  */
 int mul(int a, int b)
 {
-	if (a % 1 == 0 && b % 1 == 0)
-	{
-		int prod;
-
-		prod = a * b;
-
-		return (0);
-	}
+	return (a * b);
 }
