@@ -1,5 +1,4 @@
-/*
- *
+/**
  * more_numbers - prints 10 times the numbers
  * from 0 to 14, followed by a new line.
  */
@@ -7,16 +6,18 @@
 
 void more_numbers(void)
 {
-	int i = 0;
+	int counter, number;
 
-	while (i < 10)
+	for (counter = 0; counter <= 9; counter++)
 	{
-		int x;
-
-		for (x = 0; i <= 14; x++)
+		for (number = 0; number <= 14; number++)
 		{
-			_putchar((x % 10) + '0');
+			if (number > 9)
+			{
+				_putchar((number / 10) + '0'); /*prints 1st ASCII equivalent*/
+			}
+			_putchar((number % 10) + '0'); /*prints 2nd ASCII equivalent if number>9*/
 		}
+	}
 		_putchar('\n');
 	}
-}
