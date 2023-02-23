@@ -14,9 +14,9 @@ void more_numbers(void)
 		{
 			if (number > 9)
 			{
-				_putchar((number / 10) + '0'); /*prints 1st ASCII equivalent*/
+				_putchar((number / 10) + '0'); /*prints 1st digit*/
 			}
-			_putchar((number % 10) + '0'); /*prints 2nd ASCII equivalent if number>9*/
+			_putchar((number % 10) + '0'); /*prints 2nd ASCII digit if number>9*/
 		}
 	}
 		_putchar('\n');
