@@ -6,7 +6,7 @@
 
 void print_rev(char *s)
 {
-	int reverse, myString;
+	int reverse, myString = 0;
 
 	while (s[myString] != '\0')
 	{
