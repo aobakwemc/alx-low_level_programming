@@ -6,10 +6,18 @@
 
 void rev_string(char *s)
 {
-	int reverse = 0;
+	int reverse = 0, length = 0;
+	char temp;
 
-	while (s[reverse] != '\0')
+	while (s[reverse++])
 	{
-		reverse--;
+		length++;
+	}
+
+	for (reverse = length - 1; reverse >= length / 2; reverse--)
+	{
+		temp = s[reverse];
+		s[reverse] = s[length - reverse - 1];
+		s[length - reverse - 1] = temp;
 	}
 }
