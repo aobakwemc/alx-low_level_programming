@@ -2,6 +2,8 @@
  * print_number - prints an integer
  * @n: integer to be printed
  */
+#include "main.h"
+
 void print_number(int n)
 {
 	unsigned int num = n;
