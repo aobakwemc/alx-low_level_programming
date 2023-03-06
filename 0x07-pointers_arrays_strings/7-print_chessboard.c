@@ -3,7 +3,6 @@
  * @a: chessboard to be printed.
  */
 #include "main.h"
-
 void print_chessboard(char (*a)[8])
 {
 	int row, column;
@@ -14,8 +13,6 @@ void print_chessboard(char (*a)[8])
 		{
 			_putchar(a[row][column]);
 		}
+		_putchar('\n');
 	}
-
-	_putchar('\n');
-
 }
