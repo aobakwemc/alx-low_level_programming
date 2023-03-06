@@ -5,6 +5,9 @@
  * @n: The number of bytes to be filled.
  * Return: string @s, pointer to memory string s
  */
+
+#include "main.h"
+
 char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int i;
