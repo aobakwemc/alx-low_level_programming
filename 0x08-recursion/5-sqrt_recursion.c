@@ -4,12 +4,6 @@
  * @c: number to find sqrt of
  * Return: The sqrt of c or -1 if number does not have natural sqrt
  */
-
-/**
- * _sqrt_recursion - returns the natural
- * square root of a number.
- */
-
 #include "main.h"
 
 int sqrt_find(int g, int c)
@@ -22,6 +16,13 @@ int sqrt_find(int g, int c)
 
 	return (sqrt_find(g + 1, c));
 }
+
+/**
+ * _sqrt_recursion - returns the natural
+ * square root of a number.
+ * @n: number to find sqrt of
+ * Return: natural square root or -1 (if not natural square root)
+ */
 
 int _sqrt_recursion(int n)
 {
