@@ -1,7 +1,3 @@
-/**
- * Header file containing
- * function prototypes.
- */
 #ifndef MAIN_H
 #define MAIN_H
 
