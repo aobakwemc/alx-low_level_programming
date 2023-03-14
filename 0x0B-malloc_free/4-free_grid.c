@@ -5,6 +5,9 @@
  * @height: height of grid
  * Return: void
  */
+#include "main.h"
+#include <stdlib.h>
+
 void free_grid(int **grid, int height)
 {
 	int i;
