@@ -10,11 +10,18 @@
 
 char *create_array(unsigned int size, char c)
 {
+	char *g = (char *)malloc(sizeof(char) * size);
+	unsigned int i;
+
 	if (size == 0)
-		return NULL;
-	else if (size > 0)
+		return (NULL);
+	if (g == NULL) /*if pointer does not get allocated some memory*/
 	{
-		char *g = (char *)malloc(sizeof(char)*size);
-		g[0] = c;
+		return (NULL);
 	}
+
+	for (i = 0; i <	size; i++)
+		g[i] = c;
+
+	return (g);
 }
