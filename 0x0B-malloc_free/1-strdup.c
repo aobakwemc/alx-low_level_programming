@@ -21,7 +21,7 @@ char *_strdup(char *str)
 		x++; /*i takes on accumulation of str length*/
 	}
 
-	ptr = malloc(sizeof(char) * x);
+	ptr = malloc(sizeof(char) * (x + 1)); /*+ 1 for null terminator*/
 
 	if (ptr == NULL)
 		return (NULL);
