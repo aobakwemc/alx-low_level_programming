@@ -28,6 +28,7 @@ char *_strdup(char *str)
 
 	for (i = 0; str[i]; i++)
 		ptr[i] = str[i]; /*ptr copies str into itself*/
-
+	
+	ptr[x] = '\0';
 	return (ptr);
 }
