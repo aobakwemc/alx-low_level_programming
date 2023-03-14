@@ -12,6 +12,7 @@
 char *_strdup(char *str)
 {
 	int i, x = 0;
+	char *ptr;
 
 	if (str == NULL)
 		return (NULL); /*If no argument is given*/
@@ -20,7 +21,7 @@ char *_strdup(char *str)
 		x++; /*i takes on accumulation of str length*/
 	}
 
-	char *ptr = (char *)malloc(sizeof(char) * i);
+	ptr = malloc(sizeof(char) * x);
 
 	if (ptr == NULL)
 		return (NULL);
