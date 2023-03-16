@@ -6,6 +6,9 @@
  * If min > max --> NULL
  * If malloc fails --> NULL
  */
+#include "main.h"
+#include <stdlib.h>
+
 int *array_range(int min, int max)
 {
 	int i, len, *a;
