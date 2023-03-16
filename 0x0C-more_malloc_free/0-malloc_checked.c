@@ -4,7 +4,7 @@
  * Return: pointer to the allocated memory
  */
 #include "main.h"
-#include <stslib.h>
+#include <stdlib.h>
 
 void *malloc_checked(unsigned int b)
 {
