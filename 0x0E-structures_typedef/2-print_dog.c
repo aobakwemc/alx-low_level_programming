@@ -1,6 +1,7 @@
 /**
  * print_dog -  function that prints a struct dog
  * @d: struct of dog to be printed.
+ * Return: void
  */
 #include "dog.h"
 #include <stdlib.h>
