@@ -2,7 +2,7 @@
 #define FUNCTION_POINTERS_H
 
 /**
- * File: #include <stdio.h>
+ * File: function_pointers.h
  * Description: Header file containing function
  * prototypes.
  */
