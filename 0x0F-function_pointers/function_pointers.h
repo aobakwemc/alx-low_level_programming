@@ -3,6 +3,8 @@
 
 /**
  * File: function_pointers.h
+ * Include guard name taken from header file
+ * name - as convention, in uppercase.
  * Description: Header file containing function
  * prototypes.
  */
