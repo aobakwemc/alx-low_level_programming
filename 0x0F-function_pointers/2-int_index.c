@@ -7,6 +7,7 @@
  * function does not return 0
  * else, if no element matches, return -1
  */
+#include "function_pointers.h"
 int int_index(int *array, int size, int (*cmp)(int))
 {
 	int a;
