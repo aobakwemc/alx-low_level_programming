@@ -6,7 +6,8 @@
  * Include guard name taken from header file
  * name - as convention, in uppercase.
  * Description: Header file containing function
- * prototypes.
+ * prototypes for tasks in the 0x0F-function_pointers
+ * directory.
  */
 
 #include <stdio.h>
