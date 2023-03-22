@@ -4,6 +4,7 @@
  * @f: pointer to function that prints a name.
  * Return: void
  */
+#include "function_pointers.h"
 void print_name(char *name, void (*f)(char *))
 {
 	if (name && f)
