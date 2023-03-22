@@ -31,7 +31,7 @@ int main(int argc, char *argv[])
 	{
 		opcode = *(unsigned char *)address;
 		printf("%.2x", opcode);
-		
+
 		if (i == b - 1)
 			continue;
 		printf(" ");
