@@ -7,11 +7,6 @@
  * @f: The function associated
  */
 
-/**
- * File: 3-calc.h
- * Description: Header file with structs + prototypes
- * used by 3-main.c
- */
 typedef struct op
 {
 	char *op;
