@@ -44,14 +44,6 @@ void print_s(va_list s)
 }
 
 /**
- * print_all - prints anything, followed by a new line.
- * @format: list of argument types passed to the function
- * Return: void
- * Ignore any non char,int,string(char *) and float type.
- * Print nil , if string argument is NULL
- */
-
-/**
  * print_all - prints anything.
  * @format: list of argument types passed to the function
  * Return: void
